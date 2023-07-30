@@ -68,8 +68,8 @@ try {
                             <p class="card-text"><strong>Vice-Secretário:</strong> <?php echo $candidatura['vice_secretario']; ?></p>
                             <p class="card-text"><strong>Diretor Financeiro:</strong> <?php echo $candidatura['diretor_financeiro']; ?></p>
                             <p class="card-text"><strong>Diretor de Comunicação:</strong> <?php echo $candidatura['diretor_comunicacao']; ?></p>
-                            <p class="card-text"><strong>Diretor de Culturais:</strong> <?php echo $candidatura['diretor_culturais']; ?></p>
-                            <p class="card-text"><strong>Diretor Sociais:</strong> <?php echo $candidatura['diretor_sociais']; ?></p>
+                            <p class="card-text"><strong>Diretor Cultural:</strong> <?php echo $candidatura['diretor_culturais']; ?></p>
+                            <p class="card-text"><strong>Diretor Social:</strong> <?php echo $candidatura['diretor_sociais']; ?></p>
                             <p class="card-text"><strong>Suplente:</strong> <?php echo $candidatura['suplente']; ?></p>
                             <p class="card-text"><strong>Número Eleitoral:</strong> <?php echo $candidatura['numero_eleitoral']; ?></p>
                         </div>
