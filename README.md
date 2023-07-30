@@ -1,6 +1,6 @@
 # Site de Estudantes Haitianos
 
-Este é um site dedicado aos estudantes haitianos que estudam em universidades brasileiras, proporcionando informações relevantes sobre suas conquistas acadêmicas e contribuições para a comunidade acadêmica. O site inclui recursos para visualizar fotos de eventos, ler publicações sobre conquistas de estudantes haitianos e conhecer mais sobre a comunidade estudantil.
+Este é um site dedicado aos estudantes haitianos que estudam na universidade federal da Fronteira Sul, proporcionando informações relevantes sobre suas conquistas acadêmicas e contribuições para a comunidade acadêmica. O site inclui recursos para visualizar fotos de eventos, ler publicações sobre conquistas de estudantes haitianos e conhecer mais sobre a comunidade estudantil.
 
 ## Tecnologias Utilizadas
 
@@ -31,13 +31,10 @@ Este é um site dedicado aos estudantes haitianos que estudam em universidades b
 
 ## Créditos
 
-Este site foi desenvolvido por [Seu Nome] como parte de um projeto ou exercício de estudo.
+Este site foi desenvolvido por Sebastien Lionel Lubin como parte de um projeto ou exercício de estudo.
 
 ## Licença
 
-[Informe aqui a licença do seu projeto, caso aplicável]
 
 ---
-
-Lembre-se de personalizar as informações do README com os detalhes específicos do seu projeto e das suas contribuições. O README.md é uma parte importante da documentação do seu projeto, e fornece aos usuários e desenvolvedores informações essenciais sobre o propósito do site, como utilizá-lo e como contribuir para o desenvolvimento, se for um projeto de código aberto.
 
