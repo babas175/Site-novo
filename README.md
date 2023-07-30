@@ -1,4 +1,4 @@
-# Site de Estudantes Haitianos
+# Site dos Estudantes Haitianos
 
 Este é um site dedicado aos estudantes haitianos que estudam na universidade federal da Fronteira Sul, proporcionando informações relevantes sobre suas conquistas acadêmicas e contribuições para a comunidade acadêmica. O site inclui recursos para visualizar fotos de eventos, ler publicações sobre conquistas de estudantes haitianos e conhecer mais sobre a comunidade estudantil.
 
