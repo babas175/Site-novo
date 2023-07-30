@@ -128,7 +128,7 @@ $conn->close();
                     <a class="nav-link" href="../index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#servicos">Ver chapas inscritas</a>
+                    <a class="nav-link" href="../votar/ListarCandidatura.php">Ver chapas inscritas</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../sobrenos.php">Sobre Nós</a>

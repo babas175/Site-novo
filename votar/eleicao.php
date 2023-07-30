@@ -69,10 +69,13 @@
                 <a href="../views/login.php" class="btn btn-primary btn-block">Votar na Eleição</a>
             </div>
             <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-primary btn-block">Ver chapas inscritas</a>
+                <a href="listarCandidatura.php" class="btn btn-primary btn-block">Ver chapas inscritas</a>
             </div>
             <div class="col-md-4 mb-3">
                 <a href="Resultado.php" class="btn btn-primary btn-block">Resultado Parcial</a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="../index.php" class="btn btn-primary btn-block">Sair</a>
             </div>
             
         </div>

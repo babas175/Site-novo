@@ -78,6 +78,14 @@
         <p>Obrigado por participar neste processo eleitoral. Por favor, registre as candidaturas abaixo:</p>
         <form action="candidatura1.php" method="POST" onsubmit="return validateForm()">
             <div class="form-group">
+                <label for="nome">Nome da chapa:</label>
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite o nome completo" required>
+            </div>
+            <div class="form-group">
+                <label for="presidente">Presidente:</label>
+                <input type="text" class="form-control" id="presidente" name="presidente" placeholder="Digite o nome completo" required>
+            </div>
+            <div class="form-group">
                 <label for="presidente">Presidente:</label>
                 <input type="text" class="form-control" id="presidente" name="presidente" placeholder="Digite o nome completo" required>
             </div>

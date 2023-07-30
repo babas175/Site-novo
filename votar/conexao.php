@@ -1,9 +1,10 @@
 <?php
 
-$host = 'myshared0788'; 
+$host = 'localhost';
 $dbName = 'haitian'; 
-$username = 'haitian'; 
-$password = 'Sophard175@'; 
+$username = 'root'; 
+$password = ''; 
+
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbName", $username, $password);
@@ -12,6 +13,7 @@ try {
     $sql = "
     CREATE TABLE IF NOT EXISTS candidatura (
         id INT AUTO_INCREMENT PRIMARY KEY,
+        nome VARCHAR(100) NOT NULL,
         presidente VARCHAR(100) NOT NULL,
         vice_presidente VARCHAR(100) NOT NULL,
         secretario VARCHAR(100) NOT NULL,
