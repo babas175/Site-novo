@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Eleição</title>
+    <title>Sistema eleitoral Pro Haiti Uffs</title>
     <!-- Incluindo o Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Incluindo a biblioteca Font Awesome -->

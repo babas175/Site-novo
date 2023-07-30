@@ -102,8 +102,8 @@
                     <div class="form-group">
                 <label for="curso">Curso:</label>
                 <select class="form-control" id="curso" name="curso">
-                    <option value="Administracao">Administração</option>
-                    <option value="Ciencia da Computacao">Ciência da Computação</option>
+                    <option value="Administração">Administração</option>
+                    <option value="Ciência da Computação">Ciência da Computação</option>
                     <option value="Geografia">Geografia</option>
                     <option value="Historia">História</option>
                     <option value="Engenharia Ambiental">Engenharia Ambiental</option>
