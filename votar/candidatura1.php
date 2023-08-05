@@ -4,6 +4,7 @@ require_once 'conexao.php';
 
 try {
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $nome = $_POST['nome'];
         $presidente = $_POST['presidente'];
         $vice_presidente = $_POST['vice_presidente'];
         $secretario = $_POST['secretario'];
@@ -16,11 +17,12 @@ try {
         $numero_eleitoral = $_POST['numero_eleitoral'];
 
         $sql = "INSERT INTO candidatura 
-                (presidente, vice_presidente, secretario, vice_secretario, diretor_financeiro, diretor_comunicacao, diretor_culturais, diretor_sociais, suplente, numero_eleitoral) 
+                (nome,presidente, vice_presidente, secretario, vice_secretario, diretor_financeiro, diretor_comunicacao, diretor_culturais, diretor_sociais, suplente, numero_eleitoral) 
                 VALUES 
-                (:presidente, :vice_presidente, :secretario, :vice_secretario, :diretor_financeiro, :diretor_comunicacao, :diretor_culturais, :diretor_sociais, :suplente, :numero_eleitoral)";
+                (:nome,:presidente, :vice_presidente, :secretario, :vice_secretario, :diretor_financeiro, :diretor_comunicacao, :diretor_culturais, :diretor_sociais, :suplente, :numero_eleitoral)";
 
         $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':nome', $nome);
         $stmt->bindParam(':presidente', $presidente);
         $stmt->bindParam(':vice_presidente', $vice_presidente);
         $stmt->bindParam(':secretario', $secretario);
@@ -34,7 +36,7 @@ try {
         $stmt->execute();
 
         // Redireciona para a página de sucesso ou exibe uma mensagem de sucesso aqui
-        header('Location: voto_sucesso.php');
+        header('Location: candidatura_sucesso.php');
         exit();
     }
 } catch (PDOException $e) {

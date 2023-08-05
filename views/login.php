@@ -106,8 +106,7 @@
 <br>
 <br>
 <br>
-<br>
-<br>
+
 <form  action="login1.php" method="POST" >
     <!-- Conteúdo da Página -->
     <div class="container form-container">
